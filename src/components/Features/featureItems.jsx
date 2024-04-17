@@ -1,7 +1,7 @@
 const featureItems = [
     {
         id: 1,
-        image: "../../images/features1.jpg",
+        image: "../../src/images/features1.jpg",
         title: "Optimization",
         text: "alskdjfas"
     },
