@@ -1,0 +1,59 @@
+.heroSection {
+    background-image: url("../../images/mbr.jpg");
+    background-size: cover;
+}
+
+.heroSectionDark {
+    background-color: rgba(11, 10, 54, 0.603);
+    min-height: calc(100vh);
+    max-height: fit-content;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+#heroSectionCont {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#heroText {
+    width: 90%;
+    margin: auto;
+}
+
+.heroSection h1 {
+    margin: auto;
+    max-width: 800px;
+    font-size: 4.5rem;
+}
+
+.heroSection p {
+    font-size: 1.5rem;
+}
+
+.heroCardCont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.heroCard {
+    background-color: #322B46;
+    padding: 1.5rem 3rem;
+    min-width: 23%;
+    border-radius: 30px;
+    text-align: center;
+    color: var(--sec-bg-color);
+}
+
+.heroCard h2 {
+    font-size: 3rem;
+}

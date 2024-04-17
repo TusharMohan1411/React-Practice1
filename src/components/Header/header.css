@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+    line-height: 40px;
+}
+
+.logo {
+    display: flex;
+    gap: 6px;
+    font-size: 1rem;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.headMenu {
+    display: flex;
+    gap: 25px;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.navBtns {
+    display: flex;
+    gap: 15px;
+}
+
+.navHelpBtn {
+    padding: 0px 40px;
+    border-radius: 50px;
+    background-color: var(--sec-bg-color);
+    color: #1241dd;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}

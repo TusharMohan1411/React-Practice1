@@ -1,0 +1,43 @@
+.imageCardsCont {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.imageCard {
+    background-color: rgb(167, 179, 250);
+    color: rgb(25, 51, 199);
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    position: relative;
+    bottom: 0;
+}
+
+.imageCard:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    bottom: 10px;
+}
+
+.imageCard img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.imageCard h3 {
+    font-size: 2rem;
+}
+
+.imageCard p {
+    font-size: 1.1rem;
+}
